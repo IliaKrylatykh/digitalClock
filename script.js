@@ -25,7 +25,7 @@ function clock() {
   var lang = navigator.language;
   console.log(lang);
 
-  if (lang === "ru-RU") {
+  if (lang === "ru") {
     headerEl.innerHTML = "Электронные часы";
     ampm = "";
     hoursRu = "ч";
