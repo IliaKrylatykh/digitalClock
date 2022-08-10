@@ -33,9 +33,15 @@ function clock() {
     secondsRu = "с";
   } else if (hours < 12) {
     ampm = "am";
+    hoursRu = "hours";
+    minutesRu = "minutes";
+    secondsRu = "seconds";
   } else {
     hours = hours - 12;
     ampm = "pm";
+    hoursRu = "hours";
+    minutesRu = "minutes";
+    secondsRu = "seconds";
   }
 
   hoursEl.innerHTML = hours;
